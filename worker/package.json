@@ -1,0 +1,15 @@
+{
+  "name": "worker",
+  "version": "1.0.0",
+  "description": "Kafka consumer for lotwise portfolio logic.",
+  "main": "src/consumer.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/consumer.js"
+  },
+  "dependencies": {
+    "pg": "^8.11.5",
+    "kafkajs": "^2.2.4",
+    "dotenv": "^16.4.5"
+  }
+}

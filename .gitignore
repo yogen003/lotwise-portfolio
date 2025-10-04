@@ -1,0 +1,7 @@
+# Dependencies
+/node_modules
+/backend/node_modules
+/worker/node_modules
+
+# Environment
+.env
