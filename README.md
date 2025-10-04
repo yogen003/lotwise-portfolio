@@ -66,3 +66,12 @@ Start the Dev Server: Start the Next.js development server.
 
 npm run dev
 Access: Open your web browser to http://localhost:3001 to use the application.
+
+this are the some ss
+<img width="1365" height="868" alt="image" src="https://github.com/user-attachments/assets/1c9abb56-611b-4870-b261-c735eb9648b1" />
+
+<img width="1052" height="631" alt="image" src="https://github.com/user-attachments/assets/feb5dec3-ae86-47f7-8269-de9e3eca186b" />
+
+<img width="1178" height="780" alt="image" src="https://github.com/user-attachments/assets/bb4a8a71-1ac4-41c7-8808-e2fbb915ec21" />
+
+
