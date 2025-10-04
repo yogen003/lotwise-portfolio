@@ -60,21 +60,15 @@ Ensure you have the complete docker-compose.yml file (including Postgres).
 
 Run the command from the project root:
 
-Bash
-
 docker compose up -d
 Initialize Database: Connect to the portfoliodb (user: user, port: 5432) and run the CREATE TABLE lots SQL script.
 
 B. Start Backend API (Port 3000)
 Navigate to the backend directory:
 
-Bash
-
 cd backend
 npm install
 Start the API server (will connect to Kafka Producer and Postgres):
-
-Bash
 
 npm run dev
 C. Start Worker (Kafka Consumer)
@@ -82,21 +76,15 @@ Open a new terminal tab/window.
 
 Navigate to the worker directory:
 
-Bash
-
 cd worker
 npm install
 Start the Worker (will connect to Kafka Consumer and Postgres):
-
-Bash
 
 npm start
 D. Start Frontend (Port 3001)
 Open a third terminal tab/window.
 
 Navigate to the frontend directory:
-
-Bash
 
 cd frontend
 npm install
